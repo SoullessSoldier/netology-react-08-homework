@@ -1,0 +1,29 @@
+.user-details-wrapper{
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--color-gray);
+    overflow: hidden;
+}
+.user-details{
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.user-details-img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.user-details-name{
+    padding: 20px 15px;
+    font-size: 1.1rem;
+}
+.user-details-item{
+    padding: 10px 15px;
+    text-wrap: pretty;
+}
+.user-details-name,
+.user-details-item:not(:last-child){
+    border-bottom: 1px solid var(--color-gray);
+}

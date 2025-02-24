@@ -1,0 +1,26 @@
+.user-list {
+  width: 250px;
+  height: 100%;
+  list-style: none;
+  border-radius: 10px;
+  border: 1px solid var(--color-gray);
+}
+.user-item {
+  padding: 10px 15px;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+}
+.user-item:not(:last-child) {
+  border-bottom: 1px solid var(--color-gray);
+}
+.user-item:hover{
+    color: #ffffff;
+    background-color: #0f80fa;
+}
+.user-item-active,
+.user-item:active{
+    color: var(--color-gray);
+    background-color: #0010ff;
+}
+
