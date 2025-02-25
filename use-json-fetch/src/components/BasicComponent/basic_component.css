@@ -1,0 +1,38 @@
+.basic-component-wrapper {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+}
+.basic-component-content {
+  width: 100%;
+  height: 100%;
+}
+.basic-component {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.bg-green {
+  color: #ffffff;
+  background-color: #11aa11;
+}
+.bg-red {
+  color: #ffffff;
+  background-color: #aa0000;
+}
+.basic-component-error-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
