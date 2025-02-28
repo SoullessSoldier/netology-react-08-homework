@@ -1,0 +1,14 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-title {
+    font-family: Roboto;
+    color: var(--color-text-main);
+}
+.profile-avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

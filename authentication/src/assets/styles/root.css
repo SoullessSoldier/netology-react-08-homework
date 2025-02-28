@@ -1,0 +1,11 @@
+:root {
+    --color-bg-header: #f8f9fb;
+    --color-text-logo: #8e8e8e;
+    --color-text-placeholder: #a4a3a8;
+    --color-bg-main: #e7ebee;
+    --color-text-main: #262a2d;
+}
+
+.container {
+    width: 1000px;
+}
