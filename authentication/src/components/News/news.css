@@ -1,0 +1,31 @@
+.news {
+    font-family: Roboto;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+.news-item-img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+.news-item-title {
+    padding: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.news-item-content {
+    padding: 10px;
+    flex: 1;
+}

@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import Signin from "@/components/Signin/Signin";
 import Profile from "@/components/Profile/Profile";
-import AuthContext from "../contexts/AuthContext";
+import AuthContext from "@/contexts/AuthContext";
 import "./header.css";
 
 const Header = () => {
-  const { token, isAuthenticated } = useContext(AuthContext);
+  const { isAuthenticated } = useContext(AuthContext);
 
   return (
     <>
@@ -13,7 +13,7 @@ const Header = () => {
         <a href="/">
           <div className="logo">Neto Social</div>
         </a>
-        {isAuthenticated ? <Signin /> : <Profile />}
+        {isAuthenticated ? <Profile /> : <Signin /> }
       </header>
     </>
   );

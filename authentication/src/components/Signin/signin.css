@@ -1,14 +1,27 @@
 .signin {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .signin-input {
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 1px solid var(--color-text-placeholder);
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--color-text-placeholder);
 }
 .signin-input::placeholder {
-    font-weight: 300;
-    color: var(--color-text-placeholder);
+  font-weight: 300;
+  color: var(--color-text-placeholder);
 }
+
+.form-control {
+  transition: background-color 0.33s ease-in-out;
+}
+
+.form-control-red {
+  background-color: #ff0000;
+}
+
+input.form-control-red:-internal-autofill-selected {
+  background-color: #ff0000 !important;
+}
+

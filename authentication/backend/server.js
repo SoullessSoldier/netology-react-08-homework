@@ -36,30 +36,41 @@ users.set("vasya", {
   password: bcrypt.hashSync("password", rounds),
   avatar: "https://i.pravatar.cc/40",
 });
+users.set("petya", {
+  id: uuid.v4(),
+  login: "petya",
+  name: "Petya",
+  password: bcrypt.hashSync("password1", rounds),
+  avatar: "https://i.pravatar.cc/40",
+});
 
 const news = [
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: "https://placeimg.com/640/480/nature",
+    // image: "https://placeimg.com/640/480/nature",
+    image: "https://picsum.photos/300/200?nature",
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: "https://placeimg.com/640/480/arch",
+    //image: "https://placeimg.com/640/480/arch",
+    image: "https://picsum.photos/300/200?arch",
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: "https://placeimg.com/640/480/tech",
+    //image: "https://placeimg.com/640/480/tech",
+    image: "https://picsum.photos/300/200?tech",
     content: faker.lorem.paragraph(),
   },
   {
     id: uuid.v4(),
     title: faker.lorem.words(),
-    image: "https://placeimg.com/640/480/sepia",
+    //image: "https://placeimg.com/640/480/sepia",
+    image: "https://picsum.photos/300/200?sepia",
     content: faker.lorem.paragraph(),
   },
 ];
